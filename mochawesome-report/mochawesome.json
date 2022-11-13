@@ -5,8 +5,8 @@
     "passes": 12,
     "pending": 1,
     "failures": 1,
-    "start": "2022-11-13T19:05:39.041Z",
-    "end": "2022-11-13T19:05:39.046Z",
+    "start": "2022-11-13T20:08:21.598Z",
+    "end": "2022-11-13T20:08:21.603Z",
     "duration": 5,
     "testsRegistered": 14,
     "passPercent": 92.3076923076923,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "63aa9a0d-6401-467f-b081-9f5ba375bd1d",
+      "uuid": "84f544ac-5638-44e7-bee5-7ba793f37672",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "2f16892e-7763-4f4f-8008-40f589424026",
+          "uuid": "6d660ebc-539e-4f8d-9f28-d49029558e23",
           "title": "generate random number from 1 to 10",
           "fullFile": "/Users/alchem01/dev/on_fly/testing-gar/test/something.spec.js",
           "file": "/test/something.spec.js",
@@ -47,8 +47,8 @@
               "context": null,
               "code": "randomNumber = Math.floor(Math.random() * 10) + 1;\nexpect(randomNumber).to.be.at.least(1);\nexpect(randomNumber).to.be.at.most(10);",
               "err": {},
-              "uuid": "bca180db-c997-4b1d-bc5c-5480f628ebdc",
-              "parentUUID": "2f16892e-7763-4f4f-8008-40f589424026",
+              "uuid": "913ffc66-c95f-49dd-86f1-06fa4e04d010",
+              "parentUUID": "6d660ebc-539e-4f8d-9f28-d49029558e23",
               "isHook": false,
               "skipped": false
             },
@@ -65,8 +65,8 @@
               "context": null,
               "code": "const array = [1,2,3,4,5,6,7,8,9,10];\nexpect(array).to.have.lengthOf(10);",
               "err": {},
-              "uuid": "9a88db70-5e15-439e-873b-dd5270361fbe",
-              "parentUUID": "2f16892e-7763-4f4f-8008-40f589424026",
+              "uuid": "e6ae2500-8e9f-4097-97b8-70438fb83a23",
+              "parentUUID": "6d660ebc-539e-4f8d-9f28-d49029558e23",
               "isHook": false,
               "skipped": false
             },
@@ -83,8 +83,8 @@
               "context": null,
               "code": "expect(randomNumber).to.be.a('number');",
               "err": {},
-              "uuid": "ef839717-2a96-4892-b447-f78e171ceffd",
-              "parentUUID": "2f16892e-7763-4f4f-8008-40f589424026",
+              "uuid": "ea890fc2-d025-4f78-a7a8-cec6af0c3ed9",
+              "parentUUID": "6d660ebc-539e-4f8d-9f28-d49029558e23",
               "isHook": false,
               "skipped": false
             },
@@ -101,18 +101,18 @@
               "context": null,
               "code": "value.should.be.true",
               "err": {},
-              "uuid": "5c1570c6-913a-4ebb-9407-3702717b2615",
-              "parentUUID": "2f16892e-7763-4f4f-8008-40f589424026",
+              "uuid": "36aea88c-004a-4553-9790-55a064c57df8",
+              "parentUUID": "6d660ebc-539e-4f8d-9f28-d49029558e23",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "bca180db-c997-4b1d-bc5c-5480f628ebdc",
-            "9a88db70-5e15-439e-873b-dd5270361fbe",
-            "ef839717-2a96-4892-b447-f78e171ceffd",
-            "5c1570c6-913a-4ebb-9407-3702717b2615"
+            "913ffc66-c95f-49dd-86f1-06fa4e04d010",
+            "e6ae2500-8e9f-4097-97b8-70438fb83a23",
+            "ea890fc2-d025-4f78-a7a8-cec6af0c3ed9",
+            "36aea88c-004a-4553-9790-55a064c57df8"
           ],
           "failures": [],
           "pending": [],
@@ -123,7 +123,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "fce80d13-0c34-4b45-9526-36266fac44fe",
+          "uuid": "361120d9-0446-4443-b23d-49ea24461cdb",
           "title": "Parent describe block",
           "fullFile": "/Users/alchem01/dev/on_fly/testing-gar/test/test.spec.js",
           "file": "/test/test.spec.js",
@@ -141,8 +141,8 @@
               "context": null,
               "code": "// console.log('before each')",
               "err": {},
-              "uuid": "81376655-ad9a-46ad-9bab-2e8c497bc0fe",
-              "parentUUID": "fce80d13-0c34-4b45-9526-36266fac44fe",
+              "uuid": "4e9db949-e02b-4fbb-ba19-972acb7151d8",
+              "parentUUID": "361120d9-0446-4443-b23d-49ea24461cdb",
               "isHook": true,
               "skipped": false
             }
@@ -151,7 +151,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "70da579b-84d3-4041-bd16-2b87984751c3",
+              "uuid": "f79d7654-481e-4650-b2d3-89bd0fa19e72",
               "title": "#index 1",
               "fullFile": "/Users/alchem01/dev/on_fly/testing-gar/test/test.spec.js",
               "file": "/test/test.spec.js",
@@ -171,8 +171,8 @@
                   "context": null,
                   "code": "assert.equal([1, 2, 3].indexOf(4), -1);",
                   "err": {},
-                  "uuid": "5799f2c3-f6d7-4b54-ac36-5741ef663a61",
-                  "parentUUID": "70da579b-84d3-4041-bd16-2b87984751c3",
+                  "uuid": "10949976-bc25-4328-b829-8f1710058be4",
+                  "parentUUID": "f79d7654-481e-4650-b2d3-89bd0fa19e72",
                   "isHook": false,
                   "skipped": false
                 },
@@ -189,8 +189,8 @@
                   "context": null,
                   "code": "",
                   "err": {},
-                  "uuid": "a060bea2-1d97-46dc-8269-c9fd759146fe",
-                  "parentUUID": "70da579b-84d3-4041-bd16-2b87984751c3",
+                  "uuid": "c7ef297b-7375-48e4-8de5-5458660f6cc6",
+                  "parentUUID": "f79d7654-481e-4650-b2d3-89bd0fa19e72",
                   "isHook": false,
                   "skipped": false
                 },
@@ -207,20 +207,20 @@
                   "context": null,
                   "code": "assert.equal(value, 4);",
                   "err": {},
-                  "uuid": "d06a9ba6-d7b6-458e-822a-b8e4cbd4f052",
-                  "parentUUID": "70da579b-84d3-4041-bd16-2b87984751c3",
+                  "uuid": "efe6e36d-2875-4244-b318-9c68dfb8684d",
+                  "parentUUID": "f79d7654-481e-4650-b2d3-89bd0fa19e72",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "5799f2c3-f6d7-4b54-ac36-5741ef663a61",
-                "d06a9ba6-d7b6-458e-822a-b8e4cbd4f052"
+                "10949976-bc25-4328-b829-8f1710058be4",
+                "efe6e36d-2875-4244-b318-9c68dfb8684d"
               ],
               "failures": [],
               "pending": [
-                "a060bea2-1d97-46dc-8269-c9fd759146fe"
+                "c7ef297b-7375-48e4-8de5-5458660f6cc6"
               ],
               "skipped": [],
               "duration": 0,
@@ -229,7 +229,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "1b3d810f-9b00-4b34-b8a0-6fcc7c8107ed",
+              "uuid": "8c240095-fa67-45b7-872c-7c9c5c1eb224",
               "title": "#index 2",
               "fullFile": "/Users/alchem01/dev/on_fly/testing-gar/test/test.spec.js",
               "file": "/test/test.spec.js",
@@ -249,8 +249,8 @@
                   "context": null,
                   "code": "assert.equal([1, 2, 3].indexOf(4), -1);",
                   "err": {},
-                  "uuid": "f999aee2-373f-4d22-bb50-081512b8e890",
-                  "parentUUID": "1b3d810f-9b00-4b34-b8a0-6fcc7c8107ed",
+                  "uuid": "bc37804c-7183-48e3-9094-0962502c47bf",
+                  "parentUUID": "8c240095-fa67-45b7-872c-7c9c5c1eb224",
                   "isHook": false,
                   "skipped": false
                 },
@@ -267,8 +267,8 @@
                   "context": null,
                   "code": "assert.notEqual(value, 3);",
                   "err": {},
-                  "uuid": "b2bb8337-4ac7-405b-8d6f-2e196bd3a2bb",
-                  "parentUUID": "1b3d810f-9b00-4b34-b8a0-6fcc7c8107ed",
+                  "uuid": "3e597d62-1238-482c-9b7b-3c7bc68340d2",
+                  "parentUUID": "8c240095-fa67-45b7-872c-7c9c5c1eb224",
                   "isHook": false,
                   "skipped": false
                 },
@@ -285,8 +285,8 @@
                   "context": null,
                   "code": "assert.equal(1, 1);",
                   "err": {},
-                  "uuid": "cf287110-5c4e-43b2-af41-3a37fa710045",
-                  "parentUUID": "1b3d810f-9b00-4b34-b8a0-6fcc7c8107ed",
+                  "uuid": "99b4c2e6-70fd-4a29-929b-0fed9ac0b07d",
+                  "parentUUID": "8c240095-fa67-45b7-872c-7c9c5c1eb224",
                   "isHook": false,
                   "skipped": false
                 },
@@ -303,8 +303,8 @@
                   "context": null,
                   "code": "assert.match(message, /i/g);",
                   "err": {},
-                  "uuid": "3f657e78-c844-4b98-9bb7-68c98a0b4110",
-                  "parentUUID": "1b3d810f-9b00-4b34-b8a0-6fcc7c8107ed",
+                  "uuid": "92875a83-2725-4a6b-88e9-7f2cc097bbba",
+                  "parentUUID": "8c240095-fa67-45b7-872c-7c9c5c1eb224",
                   "isHook": false,
                   "skipped": false
                 },
@@ -321,8 +321,8 @@
                   "context": null,
                   "code": "assert.ok(message1); // value should evaluate to true  and not any of false undefined null 0",
                   "err": {},
-                  "uuid": "618846ca-cd48-4c59-877e-689d41febf29",
-                  "parentUUID": "1b3d810f-9b00-4b34-b8a0-6fcc7c8107ed",
+                  "uuid": "9c4ad7ff-b240-4bed-b37d-4d1e1b8b2c60",
+                  "parentUUID": "8c240095-fa67-45b7-872c-7c9c5c1eb224",
                   "isHook": false,
                   "skipped": false
                 },
@@ -343,22 +343,22 @@
                     "estack": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at Context.<anonymous> (test/test.spec.js:44:14)\n    at processImmediate (node:internal/timers:466:21)",
                     "diff": null
                   },
-                  "uuid": "f9113ef2-ecbb-40ee-acc9-8d42afe6fb4c",
-                  "parentUUID": "1b3d810f-9b00-4b34-b8a0-6fcc7c8107ed",
+                  "uuid": "4cbbd83f-7780-412b-ad5e-295de6e20562",
+                  "parentUUID": "8c240095-fa67-45b7-872c-7c9c5c1eb224",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "f999aee2-373f-4d22-bb50-081512b8e890",
-                "b2bb8337-4ac7-405b-8d6f-2e196bd3a2bb",
-                "cf287110-5c4e-43b2-af41-3a37fa710045",
-                "3f657e78-c844-4b98-9bb7-68c98a0b4110",
-                "618846ca-cd48-4c59-877e-689d41febf29"
+                "bc37804c-7183-48e3-9094-0962502c47bf",
+                "3e597d62-1238-482c-9b7b-3c7bc68340d2",
+                "99b4c2e6-70fd-4a29-929b-0fed9ac0b07d",
+                "92875a83-2725-4a6b-88e9-7f2cc097bbba",
+                "9c4ad7ff-b240-4bed-b37d-4d1e1b8b2c60"
               ],
               "failures": [
-                "f9113ef2-ecbb-40ee-acc9-8d42afe6fb4c"
+                "4cbbd83f-7780-412b-ad5e-295de6e20562"
               ],
               "pending": [],
               "skipped": [],
@@ -378,7 +378,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "f5f6f3bd-6013-4d69-97ec-409e7bc2f950",
+          "uuid": "e57bfa24-6c62-47fb-9c26-fee757800b15",
           "title": "utilities",
           "fullFile": "/Users/alchem01/dev/on_fly/testing-gar/test/utilitues.spec.js",
           "file": "/test/utilitues.spec.js",
@@ -398,15 +398,15 @@
               "context": null,
               "code": "let firstParameter = utils.getArgument('command argument', 1);\nexpect(firstParameter).to.eq('argument');",
               "err": {},
-              "uuid": "454155ce-f510-4d2f-82e3-abd6b3cdbc18",
-              "parentUUID": "f5f6f3bd-6013-4d69-97ec-409e7bc2f950",
+              "uuid": "99dc1817-1445-438a-b815-1649924a673c",
+              "parentUUID": "e57bfa24-6c62-47fb-9c26-fee757800b15",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "454155ce-f510-4d2f-82e3-abd6b3cdbc18"
+            "99dc1817-1445-438a-b815-1649924a673c"
           ],
           "failures": [],
           "pending": [],

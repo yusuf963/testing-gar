@@ -1,19 +1,22 @@
-module.exports = {
-  checkForArgument: (line, argNum, errorMessage) => {
-    let words = line.split(" ");
-    if (words.length < argNum + 1) {
-      return undefined;
-    } else {
-      return words[argNum];
-    }
-  },
+function checkForArgument(line, argNum, errorMessage) {
+  let words = line.split(' ');
+  if (words.length < argNum + 1) {
+    return undefined;
+  } else {
+    return words[argNum];
+  }
+}
 
-  getArgument: (line, index) => {
-    let words = line.split(" ");
-    if (words.length > index) {
-      return words[index];
-    } else {
-      return undefined;
-    }
-  },
+function getArgument(line, index) {
+  let words = line.split(' ');
+  if (words.length > index) {
+    return words[index];
+  } else {
+    return undefined;
+  }
+}
+
+module.exports = {
+  getArgument,
+  checkForArgument
 };
