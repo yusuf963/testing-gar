@@ -1,11 +1,11 @@
-function checkForArgument(line, argNum, errorMessage) {
-  let words = line.split(' ');
-  if (words.length < argNum + 1) {
-    return undefined;
-  } else {
-    return words[argNum];
-  }
-}
+// function checkForArgument(line, argNum, errorMessage) {
+//   let words = line.split(' ');
+//   if (words.length < argNum + 1) {
+//     return undefined;
+//   } else {
+//     return words[argNum];
+//   }
+// }
 
 function getArgument(line, index) {
   let words = line.split(' ');
@@ -18,5 +18,5 @@ function getArgument(line, index) {
 
 module.exports = {
   getArgument,
-  checkForArgument
+  // checkForArgument
 };

@@ -1,0 +1,4 @@
+{
+    "all": true,
+    "include": ["src/**/*.{ts,tsx,js,jsx}"]
+}
