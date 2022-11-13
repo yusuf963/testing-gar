@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const utils = require('../utilities');
+const utils = require('../src/utilities');
 
 describe('utilities',()=>{
     it('should return the second word when asked for the first parameter',()=>{

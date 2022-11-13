@@ -1,6 +1,6 @@
 {
     "watch": true,
-    "reporter": "spec" 
+    "reporter": "mochawesome" 
 }
 
 // or "dot" or "nyan" or landing
