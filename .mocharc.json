@@ -1,6 +1,12 @@
 {
     "watch": true,
-    "reporter": "mochawesome" 
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "reports",
+        "reportFilename": "report",
+        "reportTitle": "My Report",
+        "inlineAssets": true
+    }
 }
 
 // or "dot" or "nyan" or landing

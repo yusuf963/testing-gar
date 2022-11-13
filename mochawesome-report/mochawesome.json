@@ -5,9 +5,9 @@
     "passes": 12,
     "pending": 1,
     "failures": 1,
-    "start": "2022-11-13T18:57:11.947Z",
-    "end": "2022-11-13T18:57:11.954Z",
-    "duration": 7,
+    "start": "2022-11-13T19:05:39.041Z",
+    "end": "2022-11-13T19:05:39.046Z",
+    "duration": 5,
     "testsRegistered": 14,
     "passPercent": 92.3076923076923,
     "pendingPercent": 7.142857142857142,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "c1943067-f645-40c1-beb2-8e58c25bb468",
+      "uuid": "63aa9a0d-6401-467f-b081-9f5ba375bd1d",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "c38c2b9a-c0ac-4514-a484-ede8b84de389",
+          "uuid": "2f16892e-7763-4f4f-8008-40f589424026",
           "title": "generate random number from 1 to 10",
           "fullFile": "/Users/alchem01/dev/on_fly/testing-gar/test/something.spec.js",
           "file": "/test/something.spec.js",
@@ -47,8 +47,8 @@
               "context": null,
               "code": "randomNumber = Math.floor(Math.random() * 10) + 1;\nexpect(randomNumber).to.be.at.least(1);\nexpect(randomNumber).to.be.at.most(10);",
               "err": {},
-              "uuid": "72dcdc30-6835-4fa0-b250-983a784d8865",
-              "parentUUID": "c38c2b9a-c0ac-4514-a484-ede8b84de389",
+              "uuid": "bca180db-c997-4b1d-bc5c-5480f628ebdc",
+              "parentUUID": "2f16892e-7763-4f4f-8008-40f589424026",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "should return the length of array",
               "fullTitle": "generate random number from 1 to 10 should return the length of array",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": null,
               "code": "const array = [1,2,3,4,5,6,7,8,9,10];\nexpect(array).to.have.lengthOf(10);",
               "err": {},
-              "uuid": "7a0c5a55-649d-4611-bd2e-2f03fa2c52c9",
-              "parentUUID": "c38c2b9a-c0ac-4514-a484-ede8b84de389",
+              "uuid": "9a88db70-5e15-439e-873b-dd5270361fbe",
+              "parentUUID": "2f16892e-7763-4f4f-8008-40f589424026",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "should the random number natural number and less than 10 ",
               "fullTitle": "generate random number from 1 to 10 should the random number natural number and less than 10 ",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -83,8 +83,8 @@
               "context": null,
               "code": "expect(randomNumber).to.be.a('number');",
               "err": {},
-              "uuid": "4fee169f-5908-4425-b4a9-3105d96fac11",
-              "parentUUID": "c38c2b9a-c0ac-4514-a484-ede8b84de389",
+              "uuid": "ef839717-2a96-4892-b447-f78e171ceffd",
+              "parentUUID": "2f16892e-7763-4f4f-8008-40f589424026",
               "isHook": false,
               "skipped": false
             },
@@ -101,29 +101,29 @@
               "context": null,
               "code": "value.should.be.true",
               "err": {},
-              "uuid": "9fed13fe-9517-465a-abbd-80af0f6c5c44",
-              "parentUUID": "c38c2b9a-c0ac-4514-a484-ede8b84de389",
+              "uuid": "5c1570c6-913a-4ebb-9407-3702717b2615",
+              "parentUUID": "2f16892e-7763-4f4f-8008-40f589424026",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "72dcdc30-6835-4fa0-b250-983a784d8865",
-            "7a0c5a55-649d-4611-bd2e-2f03fa2c52c9",
-            "4fee169f-5908-4425-b4a9-3105d96fac11",
-            "9fed13fe-9517-465a-abbd-80af0f6c5c44"
+            "bca180db-c997-4b1d-bc5c-5480f628ebdc",
+            "9a88db70-5e15-439e-873b-dd5270361fbe",
+            "ef839717-2a96-4892-b447-f78e171ceffd",
+            "5c1570c6-913a-4ebb-9407-3702717b2615"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "082473b8-56a7-47e3-ad5a-82937b2b7f17",
+          "uuid": "fce80d13-0c34-4b45-9526-36266fac44fe",
           "title": "Parent describe block",
           "fullFile": "/Users/alchem01/dev/on_fly/testing-gar/test/test.spec.js",
           "file": "/test/test.spec.js",
@@ -141,8 +141,8 @@
               "context": null,
               "code": "// console.log('before each')",
               "err": {},
-              "uuid": "dab6e31f-8302-44ee-8b59-fa8dcde5b30f",
-              "parentUUID": "082473b8-56a7-47e3-ad5a-82937b2b7f17",
+              "uuid": "81376655-ad9a-46ad-9bab-2e8c497bc0fe",
+              "parentUUID": "fce80d13-0c34-4b45-9526-36266fac44fe",
               "isHook": true,
               "skipped": false
             }
@@ -151,7 +151,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "96db6bee-6dba-4c73-9224-aad0b1c33f1d",
+              "uuid": "70da579b-84d3-4041-bd16-2b87984751c3",
               "title": "#index 1",
               "fullFile": "/Users/alchem01/dev/on_fly/testing-gar/test/test.spec.js",
               "file": "/test/test.spec.js",
@@ -171,8 +171,8 @@
                   "context": null,
                   "code": "assert.equal([1, 2, 3].indexOf(4), -1);",
                   "err": {},
-                  "uuid": "a68d0171-db78-4979-a16d-d0f5f1999ff6",
-                  "parentUUID": "96db6bee-6dba-4c73-9224-aad0b1c33f1d",
+                  "uuid": "5799f2c3-f6d7-4b54-ac36-5741ef663a61",
+                  "parentUUID": "70da579b-84d3-4041-bd16-2b87984751c3",
                   "isHook": false,
                   "skipped": false
                 },
@@ -189,8 +189,8 @@
                   "context": null,
                   "code": "",
                   "err": {},
-                  "uuid": "88866fdc-9a0b-49eb-badc-3ed36155be16",
-                  "parentUUID": "96db6bee-6dba-4c73-9224-aad0b1c33f1d",
+                  "uuid": "a060bea2-1d97-46dc-8269-c9fd759146fe",
+                  "parentUUID": "70da579b-84d3-4041-bd16-2b87984751c3",
                   "isHook": false,
                   "skipped": false
                 },
@@ -207,20 +207,20 @@
                   "context": null,
                   "code": "assert.equal(value, 4);",
                   "err": {},
-                  "uuid": "3c7578d6-8d8e-42b4-a0f2-42e978a4f7fe",
-                  "parentUUID": "96db6bee-6dba-4c73-9224-aad0b1c33f1d",
+                  "uuid": "d06a9ba6-d7b6-458e-822a-b8e4cbd4f052",
+                  "parentUUID": "70da579b-84d3-4041-bd16-2b87984751c3",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "a68d0171-db78-4979-a16d-d0f5f1999ff6",
-                "3c7578d6-8d8e-42b4-a0f2-42e978a4f7fe"
+                "5799f2c3-f6d7-4b54-ac36-5741ef663a61",
+                "d06a9ba6-d7b6-458e-822a-b8e4cbd4f052"
               ],
               "failures": [],
               "pending": [
-                "88866fdc-9a0b-49eb-badc-3ed36155be16"
+                "a060bea2-1d97-46dc-8269-c9fd759146fe"
               ],
               "skipped": [],
               "duration": 0,
@@ -229,7 +229,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "3b227baa-4c99-4622-9513-9956ee7f0731",
+              "uuid": "1b3d810f-9b00-4b34-b8a0-6fcc7c8107ed",
               "title": "#index 2",
               "fullFile": "/Users/alchem01/dev/on_fly/testing-gar/test/test.spec.js",
               "file": "/test/test.spec.js",
@@ -249,8 +249,8 @@
                   "context": null,
                   "code": "assert.equal([1, 2, 3].indexOf(4), -1);",
                   "err": {},
-                  "uuid": "26c48a2a-dddf-4a1a-9cae-310c4446519f",
-                  "parentUUID": "3b227baa-4c99-4622-9513-9956ee7f0731",
+                  "uuid": "f999aee2-373f-4d22-bb50-081512b8e890",
+                  "parentUUID": "1b3d810f-9b00-4b34-b8a0-6fcc7c8107ed",
                   "isHook": false,
                   "skipped": false
                 },
@@ -267,8 +267,8 @@
                   "context": null,
                   "code": "assert.notEqual(value, 3);",
                   "err": {},
-                  "uuid": "74bd2f60-8954-4595-b104-067b5c038eb4",
-                  "parentUUID": "3b227baa-4c99-4622-9513-9956ee7f0731",
+                  "uuid": "b2bb8337-4ac7-405b-8d6f-2e196bd3a2bb",
+                  "parentUUID": "1b3d810f-9b00-4b34-b8a0-6fcc7c8107ed",
                   "isHook": false,
                   "skipped": false
                 },
@@ -285,8 +285,8 @@
                   "context": null,
                   "code": "assert.equal(1, 1);",
                   "err": {},
-                  "uuid": "449dae3f-1e6f-461d-b984-34b558547d28",
-                  "parentUUID": "3b227baa-4c99-4622-9513-9956ee7f0731",
+                  "uuid": "cf287110-5c4e-43b2-af41-3a37fa710045",
+                  "parentUUID": "1b3d810f-9b00-4b34-b8a0-6fcc7c8107ed",
                   "isHook": false,
                   "skipped": false
                 },
@@ -303,8 +303,8 @@
                   "context": null,
                   "code": "assert.match(message, /i/g);",
                   "err": {},
-                  "uuid": "70dbd91d-bb06-42c4-ae12-907dfa7d65c1",
-                  "parentUUID": "3b227baa-4c99-4622-9513-9956ee7f0731",
+                  "uuid": "3f657e78-c844-4b98-9bb7-68c98a0b4110",
+                  "parentUUID": "1b3d810f-9b00-4b34-b8a0-6fcc7c8107ed",
                   "isHook": false,
                   "skipped": false
                 },
@@ -321,8 +321,8 @@
                   "context": null,
                   "code": "assert.ok(message1); // value should evaluate to true  and not any of false undefined null 0",
                   "err": {},
-                  "uuid": "3bc7673d-399e-4901-bacf-552880f9a8c5",
-                  "parentUUID": "3b227baa-4c99-4622-9513-9956ee7f0731",
+                  "uuid": "618846ca-cd48-4c59-877e-689d41febf29",
+                  "parentUUID": "1b3d810f-9b00-4b34-b8a0-6fcc7c8107ed",
                   "isHook": false,
                   "skipped": false
                 },
@@ -343,22 +343,22 @@
                     "estack": "AssertionError [ERR_ASSERTION]: Missing expected exception.\n    at Context.<anonymous> (test/test.spec.js:44:14)\n    at processImmediate (node:internal/timers:466:21)",
                     "diff": null
                   },
-                  "uuid": "4cf5dd2b-ca98-4fe9-b62e-35cf141e1213",
-                  "parentUUID": "3b227baa-4c99-4622-9513-9956ee7f0731",
+                  "uuid": "f9113ef2-ecbb-40ee-acc9-8d42afe6fb4c",
+                  "parentUUID": "1b3d810f-9b00-4b34-b8a0-6fcc7c8107ed",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "26c48a2a-dddf-4a1a-9cae-310c4446519f",
-                "74bd2f60-8954-4595-b104-067b5c038eb4",
-                "449dae3f-1e6f-461d-b984-34b558547d28",
-                "70dbd91d-bb06-42c4-ae12-907dfa7d65c1",
-                "3bc7673d-399e-4901-bacf-552880f9a8c5"
+                "f999aee2-373f-4d22-bb50-081512b8e890",
+                "b2bb8337-4ac7-405b-8d6f-2e196bd3a2bb",
+                "cf287110-5c4e-43b2-af41-3a37fa710045",
+                "3f657e78-c844-4b98-9bb7-68c98a0b4110",
+                "618846ca-cd48-4c59-877e-689d41febf29"
               ],
               "failures": [
-                "4cf5dd2b-ca98-4fe9-b62e-35cf141e1213"
+                "f9113ef2-ecbb-40ee-acc9-8d42afe6fb4c"
               ],
               "pending": [],
               "skipped": [],
@@ -378,7 +378,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "c87af408-b13f-4850-a4c4-fa0995f1b927",
+          "uuid": "f5f6f3bd-6013-4d69-97ec-409e7bc2f950",
           "title": "utilities",
           "fullFile": "/Users/alchem01/dev/on_fly/testing-gar/test/utilitues.spec.js",
           "file": "/test/utilitues.spec.js",
@@ -398,15 +398,15 @@
               "context": null,
               "code": "let firstParameter = utils.getArgument('command argument', 1);\nexpect(firstParameter).to.eq('argument');",
               "err": {},
-              "uuid": "1cc4c038-e673-4834-a7c2-faa762427236",
-              "parentUUID": "c87af408-b13f-4850-a4c4-fa0995f1b927",
+              "uuid": "454155ce-f510-4d2f-82e3-abd6b3cdbc18",
+              "parentUUID": "f5f6f3bd-6013-4d69-97ec-409e7bc2f950",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "1cc4c038-e673-4834-a7c2-faa762427236"
+            "454155ce-f510-4d2f-82e3-abd6b3cdbc18"
           ],
           "failures": [],
           "pending": [],
@@ -444,7 +444,9 @@
       "version": "7.1.3"
     },
     "marge": {
-      "options": null,
+      "options": {
+        "[object Object]": true
+      },
       "version": "6.2.0"
     }
   }
