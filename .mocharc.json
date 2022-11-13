@@ -1,3 +1,6 @@
 {
-    "watch": true
+    "watch": true,
+    "reporter": "spec" 
 }
+
+// or "dot" or "nyan" or landing
